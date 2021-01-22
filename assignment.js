@@ -28,7 +28,7 @@ function hotelCost(day) {
 }
 
 
-var friendName = ['Rofik', 'Apu', 'Bibakanonndo', 'Raju', 'Rashadul', 'Tabbassum']
+var friendName = ['Rofik', 'Apu', 'Raju', 'Rashadul', 'Tabbassum', 'Bibakanonndo']
 var large = friendName[0];
 for (var i = 0; i < friendName.length; i++) {
     var element = friendName[i];
