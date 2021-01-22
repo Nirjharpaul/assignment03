@@ -28,12 +28,15 @@ function hotelCost(day) {
 }
 
 
-var friendName = ['Rofik', 'Apu', 'Raju', 'Rashadul', 'Tabbassum', 'Bibakanonndo']
-var large = friendName[0];
-for (var i = 0; i < friendName.length; i++) {
-    var element = friendName[i];
-    if (element > large) {
-        large = element;
+function megaFriend(friendName) {
+    var largename = '';
+    for (var i = 0; i < friendName.length; i++) {
+        var element = friendName[i];
+        if (element > largename) {
+            largename = element;
+        }
     }
+    return largename;
 }
-console.log(large);
+
+
