@@ -6,6 +6,17 @@ function kilometerToMeter(kilometer) {
 }
 
 
+
+function budgetCalculator(watchInput, mobileInput, laptopInput) {
+    const watch = 50;
+    const mobile = 100;
+    const laptop = 500;
+    var sum = watch * watchInput + mobile * mobileInput + laptop * laptopInput;
+    return sum
+}
+
+
+
 function hotelCost(day) {
     var cost = 0;
     if (day <= 10) {
@@ -28,6 +39,7 @@ function hotelCost(day) {
 }
 
 
+
 function megaFriend(friendName) {
     var largename = '';
     for (var i = 0; i < friendName.length; i++) {
@@ -38,5 +50,4 @@ function megaFriend(friendName) {
     }
     return largename;
 }
-
 
